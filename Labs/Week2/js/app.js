@@ -8,6 +8,11 @@ class Drop {
         this.y ++;
         fill(0,0,200);
         circle(this.x, this.y, 5);
+
+        if (this.y === 250 ) {
+            world.dropY();
+            console.log(this.y);
+        }
     }
 }
 
@@ -53,9 +58,6 @@ class Ground {
         this.hitCount.push(newHit);
     }
 
-    //drop hit - called when a rain drop gets low enough (how do you inform it?)
-    //change the color for every ten rain drops hit
-
     dropHit () {
         for (var i = 10; i <= this.hitCount.length; i++) {
             //console.log("change");
@@ -68,7 +70,12 @@ class Ground {
 //global variables
 var rainManager = new RainManager();
 var ground = new Ground();
-
+var world = {
+    dropY: function () {
+        ground.dropHit();
+        ground.createHit();
+    }
+};
 var blueTint = ["#79baec","#3bb9ff","#5cb3ff","#38acec","#6698ff","#6495ed","#1589ff","#157dec","#306eff","#1b65ec","#728fce","#95b9c7","#87afc7","#659ec7","#3090c7","#3090c7","#499ac7","#368bc1","#357ec7","#736aff","#6960ec","#1f45fc","#1b60de","#1569c7","#2554c7","#0041c2","#0020c2","#0000a0","#151b8d","#153173","#342d7e","#000080","#151b54",];
 
 //Run once before the application starts
@@ -84,14 +91,8 @@ function draw() {
     //create a new drop on a 1% chance
     if (Math.random() < .05) {
         rainManager.createDrop();
-        //Amount of time for drop to fall to rectangle, then call createHit
-        setTimeout (function () {
-            ground.createHit();
-        }, 4500);
     }
-
+    //Call the update functions in their respective classes
     rainManager.update();
     ground.update();
-    ground.dropHit();
-
 }

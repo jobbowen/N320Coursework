@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68a4b3c6-f495-4174-8b3f-7cae3e532aba" name="Default Changelist" comment="" />
+    <list default="true" id="c5824c65-31e3-4386-bd61-9914928c6c8b" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,23 +13,14 @@
       <executable />
     </execution>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="HTML File" />
-        <option value="JavaScript File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1QkN31xmj2jNSemhPRzYviW18XN" />
+  <component name="ProjectId" id="1QkPhF7h6n6G4dabMezpIrU3chk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Week2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -50,13 +41,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="68a4b3c6-f495-4174-8b3f-7cae3e532aba" name="Default Changelist" comment="" />
-      <created>1568310431130</created>
+      <changelist id="c5824c65-31e3-4386-bd61-9914928c6c8b" name="Default Changelist" comment="" />
+      <created>1568311737566</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1568310431130</updated>
-      <workItem from="1568310432333" duration="144000" />
-      <workItem from="1568310683073" duration="2074000" />
+      <updated>1568311737566</updated>
+      <workItem from="1568311738865" duration="2080000" />
     </task>
     <servers />
   </component>
@@ -68,9 +58,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
