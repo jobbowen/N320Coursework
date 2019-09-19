@@ -30,6 +30,7 @@ var World = {
     //Starting color for the background
     bgcolor: [237, 119, 83],
     ballBeyond: function(whichBall) {
+        //Call change function
         boxes.change();
         this.bgcolor = [ Math.random()*255, Math.random()*255, 83 ];
         //console.log(this.bgcolor);
@@ -47,12 +48,12 @@ class Boxes {
         this.position = { x: 40, y: 225, width: 5, height: 5};
         this.position2 = { x: 300, y: 225, width: 5, height: 5};
     }
-
+//Updates position and size of rectangle
     update () {
        rect(this.position.x, this.position.y, this.position.width, this.position.height);
        rect(this.position2.x, this.position2.y, this.position2.width, this.position2.height);
     }
-
+    //Changes size of rectangle
     change () {
         this.position.width = this.position.width + 5;
         this.position.height = this.position.height + 5;
