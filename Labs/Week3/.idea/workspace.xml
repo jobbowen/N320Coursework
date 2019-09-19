@@ -29,7 +29,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../InClass/9-19-19" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -62,7 +62,7 @@
       <workItem from="1568840120693" duration="312000" />
       <workItem from="1568843688697" duration="7654000" />
       <workItem from="1568858679827" duration="466000" />
-      <workItem from="1568914375805" duration="593000" />
+      <workItem from="1568914375805" duration="851000" />
     </task>
     <servers />
   </component>

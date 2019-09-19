@@ -1,0 +1,38 @@
+.card {
+    opacity: 0;
+    border: 1px solid #999;
+    border-radius: 4px;
+    width: 40px;
+    height: 50px;
+    margin: 2px;
+    padding: 1px;
+    animation: cardBuildIn .7s;
+    animation-fill-mode: forwards;
+}
+
+.cardOver {
+    animation: cardOverAnim .7s;
+    animation-fill-mode: both;
+}
+
+#theplace {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+@keyframes cardBuildIn {
+    from {
+        opacity: 0;
+        transform: scale(.2);
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes cardOverAnim {
+    to {
+        transform: scale(1.2);
+        background-color: #ffff00;
+    }
+}
