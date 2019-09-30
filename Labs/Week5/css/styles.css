@@ -1,0 +1,29 @@
+body {
+    background: #000;
+}
+
+.student {
+    border-radius: 4px;
+    width: 100px;
+    height: 100px;
+    padding: 3px;
+    background-color: #eee;
+    color: #ef4b4b;
+}
+
+.arrow {
+    cursor: pointer;
+    color: #fff;
+    width: 15px;
+    height: 15px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    background: #7ecfc0;
+}
+
+.cardActive {
+    transition: transform .3s ease, opacity .3s ease;
+    transform: rotate(80deg);
+    opacity: 0;
+}
