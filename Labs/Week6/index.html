@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <style>
+        .row {
+            display: flex;
+        }
+
+        .cell {
+            width: 30px;
+            height: 30px;
+            margin: 3px;
+            padding: 3px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<div id="app">
+    <div v-if="gameOver" class="gover">Game Over</div>
+    <div class="gameSpace">
+        <div class="row"
+             v-for="(row, indexR) in grid"
+             v-bind:key="row">
+            <div class="cell" v-for="(item, indexC) in row"
+                v-bind:key="item"
+                v-on:click="selectCell(indexR, indexC)">
+                {{item}}
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.min.js"></script>
+<script src="app/app.js"></script>
+</body>
+</html>

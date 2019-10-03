@@ -2,15 +2,80 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Home</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            background: #000;
+        }
+
+        .student {
+            border-radius: 4px;
+            width: 200px;
+            height: 200px;
+            padding: 3px;
+            background-color: #eee;
+            color: #ef4b4b;
+        }
+
+        .arrowRight {
+            cursor: pointer;
+            color: #fff;
+            width: 15px;
+            height: 15px;
+            padding: 5px;
+            margin: 5px;
+            border-radius: 5px;
+            background: #7ecfc0;
+        }
+
+        .arrowLeft {
+            cursor: pointer;
+            color: #fff;
+            width: 15px;
+            height: 15px;
+            padding: 5px;
+            margin: 5px;
+            border-radius: 5px;
+            background: #7ecfc0;
+        }
+
+        .cardActive {
+            transition: transform .3s ease, opacity .3s ease;
+            transform: rotate(0deg);
+            opacity: 1;
+        }
+
+        .cardOut {
+            transition: transform  .3s ease, opacity .3s ease;
+            transform: rotate(45deg);
+            opacity: 0;
+        }
+
+        .cardActiveReverse {
+            transition: transform .3s ease, opacity .3s ease;
+            transform: rotate(0deg);
+            opacity: 1;
+        }
+
+        .cardOutReverse {
+            transition: transform  .3s ease, opacity .3s ease;
+            transform: rotate(-45deg);
+            opacity: 0;
+        }
+    </style>
 </head>
 <body>
 
 <div id="app">
-    <student-card v-bind:student="currentStudent" v-bind:isActive="cardActive"></student-card>
-    <div class="arrow" v-on:click="arrowClicked"> ></div>
+    <student-card v-bind:student="currentStudent" v-bind:isactive="cardActive"></student-card>
+    <div class="arrowRight" class="arrow" @click="arrowClicked" v-on:click="increment"> > </div>
+    <div class="arrowLeft" class="arrow" @click="arrowClickedReverse" v-on:click="increment"> < </div>
+    <div style="color: #ef4b4b">Number of times clicked: {{counter}}</div>
 </div>
+
+
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.min.js"></script>
 <script src="js/app.js"></script>
