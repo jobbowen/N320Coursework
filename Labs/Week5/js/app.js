@@ -1,11 +1,15 @@
 Vue.component("student-card", {
     props: [ "student", "isactive" ],
-    template: "<div class='student' v-bind:class='{ cardActive:isactive, cardOut:!isactive }'>{{student.name}} : {{student.skill}}</div>"
+    template: "<div class='student' v-bind:class='{ cardActive:isactive, cardOut:!isactive, cardActiveReverse:isactive }'>{{student.name}} : {{student.skill}}</div>"
 });
 
 Vue.component("student-card-two", {
     props: [ "student", "isactivereverse" ],
     template: "<div class='student' v-bind:class='{ cardActiveReverse:isactivereverse, cardOutReverse:!isactivereverse }'>{{student.name}} : {{student.skill}}</div>"
+});
+
+Vue.component("counter", {
+    template: "<div style='color: #ef4b4b'>Number of times clicked: </div>"
 });
 
 var app = new Vue({
@@ -20,10 +24,12 @@ var app = new Vue({
         currentStudent: { name: "Sienna", skill: 2, joy: 0 },
         curStudentId: 0,
         cardActive: true,
-        cardActiveReverse: false
+        cardActiveReverse: true
     },
     methods: {
         arrowClicked: function() {
+            this.counter++;
+            console.log(this.counter);
 
             this.cardActive = !this.cardActive;
 
@@ -47,8 +53,9 @@ var app = new Vue({
         },
 
         arrowClickedReverse: function() {
-
-            this.cardActive = !this.cardActive;
+                this.counter++;
+                console.log(this.counter);
+            this.cardActiveReverse = !this.cardActiveReverse;
 
             setTimeout( () => {
                 //modify the skill of the current student
@@ -65,28 +72,9 @@ var app = new Vue({
 
                 //animation trigger
                 this.cardActiveReverse = !this.cardActiveReverse;
-                this.cardActive = !this.cardActive;
+                // this.cardActive = !this.cardActive;
 
             }, 300);
         },
-
-        increment() {
-            this.counter++;
-        }
-
     }
 });
-
-
-/*
-setTimeout( () => {
-          this.currentStudent.skill ++;
-
-          this.curStudentId ++;
-          if(this.curStudentId >= this.students.length) this.curStudentId = 0;
-          this.currentStudent = this.students[this.curStudentId];
-          this.cardActive = !this.cardActive;
-      },
-      300)
-      cardOut:!isactive
-      */

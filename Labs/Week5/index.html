@@ -70,9 +70,11 @@
 
 <div id="app">
     <student-card v-bind:student="currentStudent" v-bind:isactive="cardActive"></student-card>
-    <div class="arrowRight" class="arrow" @click="arrowClicked" v-on:click="increment"> > </div>
-    <div class="arrowLeft" class="arrow" @click="arrowClickedReverse" v-on:click="increment"> < </div>
-    <div style="color: #ef4b4b">Number of times clicked: {{counter}}</div>
+    <student-card-two v-bind:student="currentStudent" v-bind:isactivereverse="cardActiveReverse"></student-card-two>
+    <div class="arrowRight" class="arrow" @click="arrowClicked"> > </div>
+    <div class="arrowLeft" class="arrow" @click="arrowClickedReverse"> < </div>
+    <counter></counter>
+    <div style="color: #ef4b4b">{{counter}}</div>
 </div>
 
 
