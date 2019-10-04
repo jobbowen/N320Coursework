@@ -1,6 +1,6 @@
 Vue.component("student-card", {
     props: [ "student", "isactive" ],
-    template: "<div class='student' v-bind:class='{ cardActive:isactive, cardOut:!isactive, cardActiveReverse:isactive }'>{{student.name}} : {{student.skill}}</div>"
+    template: "<div class='student' v-bind:class='{ cardActive:isactive, cardOut:!isactive }'>{{student.name}} : {{student.skill}}</div>"
 });
 
 Vue.component("student-card-two", {
@@ -11,6 +11,7 @@ Vue.component("student-card-two", {
 Vue.component("counter", {
     template: "<div style='color: #ef4b4b'>Number of times clicked: </div>"
 });
+
 
 var app = new Vue({
     el: "#app",
@@ -29,7 +30,6 @@ var app = new Vue({
     methods: {
         arrowClicked: function() {
             this.counter++;
-            console.log(this.counter);
 
             this.cardActive = !this.cardActive;
 
@@ -54,7 +54,7 @@ var app = new Vue({
 
         arrowClickedReverse: function() {
                 this.counter++;
-                console.log(this.counter);
+
             this.cardActiveReverse = !this.cardActiveReverse;
 
             setTimeout( () => {
