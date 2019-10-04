@@ -1,3 +1,4 @@
+//Could not figure out how to implement second component into the first component for reversing the display.
 Vue.component("student-card", {
     props: [ "student", "isactive" ],
     template: "<div class='student' v-bind:class='{ cardActive:isactive, cardOut:!isactive }'>{{student.name}} : {{student.skill}}</div>"
