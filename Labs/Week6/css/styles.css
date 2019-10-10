@@ -1,0 +1,61 @@
+.row {
+    display: flex;
+}
+
+.gover {
+    font-size: 200px;
+}
+
+#text {
+    font-size: 10px;
+    -webkit-animation: annoyance 2s infinite alternate;
+    color: white;
+}
+
+span {
+    color: #9e2dff;
+}
+
+.cell {
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+    padding: 5px;
+    cursor: pointer;
+    -webkit-animation: annoyance 2s infinite alternate;
+}
+
+.cell:nth-child(odd) {
+    background-color: #00FFFF;
+    -webkit-animation: annoyanceEven 2s infinite alternate;
+}
+
+@-webkit-keyframes annoyance {
+    from {
+        background-color: #9e2dff;
+    }
+    to {
+        background-color: #00FFFF;
+    }
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes annoyanceEven {
+    from {
+        background-color: #00FFFF;
+    }
+    to {
+        background-color: #9e2dff;
+    }
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

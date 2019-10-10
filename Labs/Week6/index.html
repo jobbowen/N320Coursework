@@ -2,37 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Home</title>
-    <style>
-        .row {
-            display: flex;
-        }
-
-        .cell {
-            width: 30px;
-            height: 30px;
-            margin: 3px;
-            padding: 3px;
-            cursor: pointer;
-        }
-    </style>
 </head>
 <body>
 <div id="app">
-    <div v-if="gameOver" class="gover">Game Over</div>
+    <div v-if="gameOver" class="gover"><span>Player {{this.playerTurn}} Won!</span><span id="text">My apologies for the spinning</span></div>
     <div class="gameSpace">
-        <div class="row"
-             v-for="(row, indexR) in grid"
-             v-bind:key="row">
-            <div class="cell" v-for="(item, indexC) in row"
-                v-bind:key="item"
-                v-on:click="selectCell(indexR, indexC)">
-                {{item}}
+        <div class="row" v-for="(row, rowIndex) in grid" v-bind:keys="row">
+            <div class="cell" v-for="(playArea, colIndex) in row" v-bind:keys="playArea"
+                 v-on:click="selectCell(rowIndex, colIndex)">
+                {{ playArea }}
             </div>
         </div>
     </div>
 </div>
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.min.js"></script>
 <script src="app/app.js"></script>
 </body>
