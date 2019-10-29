@@ -1,0 +1,44 @@
+{
+  "people": [
+    {
+      "name": "Kerry",
+      "Age": "Very Old",
+      "Issues": [
+        "Back problems",
+        "Face problems"
+      ]
+    },
+    {
+      "name": "Bob",
+      "Age": "Kinda Old",
+      "Issues": [
+        "Neck problems",
+        "Creaky"
+      ]
+    },
+    {
+      "name": "Karen",
+      "Age": "She hasn't told anyone",
+      "Issues": [
+        "Helicopter Mom",
+        "Yells at other kids"
+      ]
+    },
+    {
+      "name": "Steve",
+      "Age": "Looks under 45",
+      "Issues": [
+        "Thinks he's still 16",
+        "Wears a visor upside down and sideways"
+      ]
+    },
+    {
+      "name": "Lauren",
+      "Age": "At least 30",
+      "Issues": [
+        "Lots of wrinkles",
+        "Too much plastic surgery"
+      ]
+    }
+  ]
+}

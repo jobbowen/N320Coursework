@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a260dea9-3cc7-48b3-a943-315bbdd0b4e5" name="Default Changelist" comment="" />
+    <list default="true" id="8df60536-8af8-4918-8aef-65c7c6c0e6b9" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,22 +16,20 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1Rhfiucu5qYlba3wB35Q086AQho" />
+  <component name="ProjectId" id="1St7lvecHkRvVVlQBN2NyrDj0fG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="C:/xampp/htdocs/N423/Homework1" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -52,18 +50,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a260dea9-3cc7-48b3-a943-315bbdd0b4e5" name="Default Changelist" comment="" />
-      <created>1570124378460</created>
+      <changelist id="8df60536-8af8-4918-8aef-65c7c6c0e6b9" name="Default Changelist" comment="" />
+      <created>1572371192341</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1570124378460</updated>
-      <workItem from="1570124379916" duration="3459000" />
-      <workItem from="1570556104557" duration="359000" />
-      <workItem from="1570556630650" duration="601000" />
-      <workItem from="1570557653974" duration="687000" />
-      <workItem from="1570564769278" duration="42000" />
-      <workItem from="1570659469992" duration="19780000" />
-      <workItem from="1571006484691" duration="23000" />
+      <updated>1572371192341</updated>
+      <workItem from="1572371193689" duration="3702000" />
     </task>
     <servers />
   </component>
@@ -75,9 +67,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>

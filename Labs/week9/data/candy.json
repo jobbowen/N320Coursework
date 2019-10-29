@@ -1,0 +1,11 @@
+{
+  "meta":{
+    "type": "Top Three"
+  },
+  "candy": [
+    {"name": "Kit Kat", "rating": "good", "chocolate":  true, "deliciousness": 70},
+    {"name": "Snickers", "rating": "pretty good", "chocolate":  true, "deliciousness": 85},
+    {"name": "Butterfinger", "rating": "Ok", "chocolate":  true, "deliciousness": 80},
+    {"name": "Skittles", "rating": "pretty ok", "chocolate":  false, "deliciousness": 15}
+  ]
+}
