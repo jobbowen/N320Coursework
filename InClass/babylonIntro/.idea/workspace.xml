@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8df60536-8af8-4918-8aef-65c7c6c0e6b9" name="Default Changelist" comment="" />
+    <list default="true" id="0a7a5b28-7614-4d90-8d65-827d49414d84" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,12 +24,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1St7lvecHkRvVVlQBN2NyrDj0fG" />
+  <component name="ProjectId" id="1TD1kpDhF0f4wJT8Sth2mbhb4BZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="C:/xampp/htdocs/N423/N413_ConferenceCI" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../snake-game" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -50,14 +50,13 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8df60536-8af8-4918-8aef-65c7c6c0e6b9" name="Default Changelist" comment="" />
-      <created>1572371192341</created>
+      <changelist id="0a7a5b28-7614-4d90-8d65-827d49414d84" name="Default Changelist" comment="" />
+      <created>1572979997521</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1572371192341</updated>
-      <workItem from="1572371193689" duration="3874000" />
-      <workItem from="1572671740696" duration="7000" />
-      <workItem from="1572709040581" duration="67000" />
+      <updated>1572979997521</updated>
+      <workItem from="1572980000670" duration="2351000" />
+      <workItem from="1572985893769" duration="15000" />
     </task>
     <servers />
   </component>
