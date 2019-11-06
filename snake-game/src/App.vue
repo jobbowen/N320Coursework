@@ -14,7 +14,6 @@
                 :addScore="addScore"
                 :score="score">
         </SnakeImport>
-
         <button id="play" v-on:click="playing ? stop() : start()">{{ playing ? "Stop" : "Start" }}</button>
     </div>
 </template>
