@@ -47,7 +47,7 @@ export default {
             this.clear();
             this.setTargetCell();
             //Define head of snake and location
-            const newHeadCell = {
+            let newHeadCell = {
                 x: this.snake[0].x + this.direction.move.x,
                 y: this.snake[0].y + this.direction.move.y
             };
@@ -90,7 +90,7 @@ export default {
                 }
             ];
             //Start snake in random direction and store inside this.direction
-            const randomDirectionIndex = Math.floor(Math.random() * 4);
+            let randomDirectionIndex = Math.floor(Math.random() * 4);
             this.direction = directions[randomDirectionIndex];
         },
         //Check if head is out of board
@@ -99,7 +99,7 @@ export default {
         },
         //Change direction of snake
         onKeyPress(event) {
-            const newDirection = directions.find(c => c.keyCode === event.keyCode);
+            let newDirection = directions.find(c => c.keyCode === event.keyCode);
             if (!newDirection) {
                 return;
             }
