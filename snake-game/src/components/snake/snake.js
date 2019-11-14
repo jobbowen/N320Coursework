@@ -27,11 +27,6 @@ export default {
             return this.cellSize * this.boardSize;
         }
     },
-    //Call after DOM has been rendered
-    mounted() {
-        this.boardContext = this.$refs.board.getContext("2d");
-        window.addEventListener("keydown", this.onKeyPress);
-    },
     //Define all methods
     methods: {
         //Gets middle cell for reset

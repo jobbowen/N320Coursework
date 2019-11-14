@@ -29,7 +29,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../snake-game" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -57,6 +57,8 @@
       <updated>1572979997521</updated>
       <workItem from="1572980000670" duration="2351000" />
       <workItem from="1572985893769" duration="15000" />
+      <workItem from="1573669550189" duration="26000" />
+      <workItem from="1573669604037" duration="1196000" />
     </task>
     <servers />
   </component>
