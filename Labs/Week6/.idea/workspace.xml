@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a260dea9-3cc7-48b3-a943-315bbdd0b4e5" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,23 +26,28 @@
   </component>
   <component name="ProjectId" id="1Rhfiucu5qYlba3wB35Q086AQho" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="C:/xampp/htdocs/N423/Homework1" />
+    <property name="last_opened_file_path" value="C:/www/ionicFinal" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="ServiceViewManager">
+    <option name="viewStates">
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
       </list>
     </option>
   </component>
@@ -64,6 +68,16 @@
       <workItem from="1570564769278" duration="42000" />
       <workItem from="1570659469992" duration="19780000" />
       <workItem from="1571006484691" duration="23000" />
+      <workItem from="1575433163289" duration="1302000" />
+      <workItem from="1575435701789" duration="92000" />
+      <workItem from="1575436313275" duration="4000" />
+      <workItem from="1575436722042" duration="36000" />
+      <workItem from="1575436990623" duration="2063000" />
+      <workItem from="1575439958478" duration="531000" />
+      <workItem from="1575440544715" duration="1258000" />
+      <workItem from="1575479469017" duration="12000" />
+      <workItem from="1575479841326" duration="633000" />
+      <workItem from="1575482286807" duration="18000" />
     </task>
     <servers />
   </component>
@@ -82,5 +96,15 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="635" y="215" key="FileChooserDialogImpl" timestamp="1575482303275">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="635" y="215" key="FileChooserDialogImpl/0.0.1707.920@0.0.1707.920" timestamp="1575482303275" />
+    <state x="921" y="162" width="738" height="596" key="find.popup" timestamp="1575480382406">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="921" y="162" width="738" height="596" key="find.popup/0.0.1707.920@0.0.1707.920" timestamp="1575480382406" />
   </component>
 </project>
