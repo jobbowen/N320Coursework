@@ -34,7 +34,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/www/vue_final" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -58,7 +58,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576168799915</updated>
-      <workItem from="1576168801210" duration="5901000" />
+      <workItem from="1576168801210" duration="6393000" />
     </task>
     <servers />
   </component>
@@ -66,6 +66,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="635" y="215" key="FileChooserDialogImpl" timestamp="1576190450609">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="635" y="215" key="FileChooserDialogImpl/0.0.1707.920@0.0.1707.920" timestamp="1576190450609" />
     <state x="516" y="196" width="672" height="678" key="search.everywhere.popup" timestamp="1576189468063">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
